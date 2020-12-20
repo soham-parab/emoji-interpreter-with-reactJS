@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-var username = prompt("Hey! What's your name?");
 var color: "red";
 
 const emojiDictionary = {
@@ -40,11 +39,7 @@ export default function App() {
   return (
     <div className="App">
       <div>
-        <h1>
-          Welcome{" "}
-          <span style={{ backgroundColor: "color" }}> {username}! </span>
-          This is an emoji interpreter.{" "}
-        </h1>
+        <h1>Welcome! This is an emoji interpreter. </h1>
       </div>
       <input onChange={emojiInputHandler} />
 
