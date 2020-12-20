@@ -1,5 +1,14 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  color: rgb(32, 16, 16);
+}
+body {
+  background-color: #c0a9ff;
+  padding: 2rem 2rem;
 }
 
+.sizing {
+  padding: 2rem 2rem;
+  width: 90%;
+}
